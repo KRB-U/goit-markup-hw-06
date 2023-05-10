@@ -956,11 +956,15 @@ img {
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 8px 16px;
   color: rgba(46, 47, 66, 0.4);
-  /* text-transform: uppercase; */
 }
+
+/* .modal-form-message::placeholder {
+  text-transform: uppercase;
+} */
 
 .modal-form-message:focus {
   outline: none;
   border-color: var(--iris-button-color);
 }
+
 /* =========================================/MODAL FORM====================*/
