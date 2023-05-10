@@ -981,7 +981,8 @@ img {
 .modal-form-check:checked + .modal-form-check-desc:before {
 background-color: var(--ocean-button-color);
 background-image: url(../images/Vector.svg);
+/* display: flex; */
 background-repeat: no-repeat;
-}
+background-position: center;
 
 /* =========================================/MODAL FORM====================*/
