@@ -462,13 +462,25 @@
               </a>
             </li>
           </ul>
+         <form>
+          <label class="=">
+            <span class="=">Name</span>
+              <input
+                type="email"
+                name="user_name"
+                class="modal-form-input"
+                required
+                pattern="^[a-zA-Zа-яА-Я]+$"
+                minlength="2"
+              />
+         </form>
+         <button type="submit" class="modal-form-submit">Send</button>
         </div>
       </div>
     </footer>
     <!-- Modal window -->
 
-    <!-- is-hidden -->
-    <div class="backdrop" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
           <svg class="modal-close-icon" width="8" height="8">
