@@ -968,7 +968,7 @@ img {
 }
 
 .modal-form-check-desc::before {
-  content: '';
+  content: "";
   display: block;
   width: 16px;
   height: 16px;
@@ -976,6 +976,12 @@ img {
   border-radius: 2px;
 
   cursor: pointer;
+}
+
+.modal-form-check:checked + .modal-form-check-desc:before {
+background-color: var(--ocean-button-color);
+background-image: url(../images/Vector.svg);
+background-repeat: no-repeat;
 }
 
 /* =========================================/MODAL FORM====================*/
