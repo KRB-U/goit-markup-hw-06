@@ -932,6 +932,7 @@ img {
 } */
 
 .modal-form-input-wrapper {
+  display: block;
   position: relative;
 }
 
