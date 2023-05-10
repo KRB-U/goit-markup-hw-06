@@ -1015,6 +1015,7 @@ img {
   /* gap: 10px; */
 
   /* position: absolute; */
+  display: block;
   width: 169px;
 
   background-color: var(--iris-button-color);
@@ -1026,18 +1027,11 @@ img {
   font-size: 16px;
   line-height: 1.5;
 
-  display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
 
   color: var(--white-color);
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-
-  display: block;
 
   padding: 16px 32px;
   margin-left: auto;
