@@ -930,4 +930,16 @@ img {
   width: 18px;
   background-color: #252525;
 } */
+
+.modal-form-input-wrapper {
+  position: relative;
+}
+
+.modal-icon-item {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+  padding-left: 8px;
+}
 /* =========================================/MODAL FORM====================*/
