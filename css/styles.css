@@ -967,4 +967,15 @@ img {
   border-color: var(--iris-button-color);
 }
 
+.modal-form-check-desc::before {
+  content: '';
+  display: block;
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+
+  cursor: pointer;
+}
+
 /* =========================================/MODAL FORM====================*/
