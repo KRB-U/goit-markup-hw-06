@@ -923,4 +923,11 @@ img {
   color: var(--light-slate-color);
   margin-bottom: 4px;
 }
+
+/* .modal-form-input-icon {
+  display: block;
+  height: 18px;
+  width: 18px;
+  background-color: #252525;
+} */
 /* =========================================/MODAL FORM====================*/
