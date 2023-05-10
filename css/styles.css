@@ -979,10 +979,26 @@ img {
 }
 
 .modal-form-check:checked + .modal-form-check-desc:before {
-background-color: var(--ocean-button-color);
-background-image: url(../images/Vector.svg);
-/* display: flex; */
-background-repeat: no-repeat;
-background-position: center;
+  background-color: var(--ocean-button-color);
+  background-image: url(../images/Vector.svg);
+  /* display: flex; */
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+}
 
+/* фокус чекбокс */
+/* .modal-form-check:focus + .modal-form-check-desc:before {
+  outline: 2px solid #31d0aa;
+} */
+
+.modal-form-check-desc {
+  font-style: 400;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+
+  color: var(--light-slate-color);
+}
 /* =========================================/MODAL FORM====================*/
