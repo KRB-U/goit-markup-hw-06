@@ -285,6 +285,10 @@ img {
   margin-left: 24px;
 }
 
+.subscr-butn:is(:hover, :focus) {
+  background-color: var(--ocean-button-color);
+}
+
 .icon-subsr-btn {
   fill: var(--white-color);
   margin-left: 16px;
@@ -1115,7 +1119,7 @@ img {
 
 .modal-form-submit:is(:hover, :focus) {
   background-color: var(--ocean-button-color);
-  color: var(--white-color);
+  /* color: var(--white-color); */
 }
 
 /* =========================================/MODAL FORM====================*/
