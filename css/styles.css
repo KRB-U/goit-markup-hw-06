@@ -287,6 +287,10 @@ img {
   margin-left: 24px;
 }
 
+.modal-icon-subsr {
+  fill: var(--white-color);
+}
+
 /* ===================/footer logo================= */
 
 .preform {
