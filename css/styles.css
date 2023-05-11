@@ -992,11 +992,15 @@ img {
 
 .modal-icon-item {
   position: absolute;
+  align-items: center;
+  justify-content: center;
   top: 50%;
   left: 0;
   transform: translate(0, -50%);
-  padding-left: 8px;
+  padding-left: 16px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  width: 26px;
+  height: 26px;
 }
 
 .modal-form-input-desc {
