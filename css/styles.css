@@ -266,7 +266,7 @@ img {
   background-color: var(--iris-button-color);
   color: var(--white-color);
 
-  display: block;
+  display: flex;
   justify-content: center;
   align-items: center;
 
