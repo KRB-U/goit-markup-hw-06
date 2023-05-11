@@ -1095,6 +1095,8 @@ img {
   width: 169px;
 
   border: none;
+  /* outline: none; */
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -1120,6 +1122,7 @@ img {
 .modal-form-submit:is(:hover, :focus) {
   background-color: var(--ocean-button-color);
   /* color: var(--white-color); */
+
 }
 
 /* =========================================/MODAL FORM====================*/
