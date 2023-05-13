@@ -228,6 +228,7 @@ img {
 .form-subsr {
   display: flex;
   align-items: flex-end;
+  margin-left: auto;
   /* position: relative; */
 }
 
